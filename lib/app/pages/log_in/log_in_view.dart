@@ -85,10 +85,13 @@ class LogInView extends StatelessWidget {
                   ),
                 ),
                 Dimens.boxHeight10,
-                GradientText(
-                  'Forgot Password?',
-                  style: Styles.black18.copyWith(
-                    decoration: TextDecoration.underline,
+                InkWell(
+                  onTap: RouteManagement.goToForgotPassword,
+                  child: GradientText(
+                    'Forgot Password?',
+                    style: Styles.black18.copyWith(
+                      decoration: TextDecoration.underline,
+                    ),
                   ),
                 ),
               ],

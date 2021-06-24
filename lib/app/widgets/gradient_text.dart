@@ -5,10 +5,12 @@ class GradientText extends StatelessWidget {
   GradientText(
     this.text, {
     this.style = const TextStyle(color: Colors.white),
+    this.textAlign,
   });
 
   final String text;
   final TextStyle style;
+  final TextAlign? textAlign;
 
   @override
   Widget build(BuildContext context) {
@@ -23,6 +25,7 @@ class GradientText extends StatelessWidget {
         style: style.copyWith(
           color: Colors.white,
         ),
+        textAlign: textAlign,
       ),
     );
   }
