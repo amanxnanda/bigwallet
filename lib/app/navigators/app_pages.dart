@@ -17,46 +17,11 @@ class AppPages {
   static const initial = Routes.signIn;
 
   static final pages = [
-    GetPage<SplashView>(
-      name: _Paths.splashScreen,
-      transitionDuration: transitionDuration,
-      page: () => SplashView(),
-      binding: SplashBinding(),
-      transition: Transition.fadeIn,
-    ),
     GetPage<SignInView>(
       name: _Paths.signIn,
       transitionDuration: transitionDuration,
       page: () => SignInView(),
       binding: SignInBinding(),
-      transition: Transition.fadeIn,
-    ),
-    GetPage<PhoneSignUpView>(
-      name: _Paths.phoneSignUp,
-      transitionDuration: transitionDuration,
-      page: () => PhoneSignUpView(),
-      binding: PhoneSignUpBinding(),
-      transition: Transition.fadeIn,
-    ),
-    GetPage<CodeVerificationView>(
-      name: _Paths.codeVerification,
-      transitionDuration: transitionDuration,
-      page: () => CodeVerificationView(),
-      binding: CodeVerificationBinding(),
-      transition: Transition.fadeIn,
-    ),
-    GetPage<ForgotPasswordView>(
-      name: _Paths.forgotPassword,
-      transitionDuration: transitionDuration,
-      page: () => ForgotPasswordView(),
-      binding: ForgotPasswordBinding(),
-      transition: Transition.fadeIn,
-    ),
-    GetPage<PersonalDetailsView>(
-      name: _Paths.personalDetails,
-      transitionDuration: transitionDuration,
-      page: () => PersonalDetailsView(),
-      binding: PersonalDetailsBinding(),
       transition: Transition.fadeIn,
     ),
   ];
