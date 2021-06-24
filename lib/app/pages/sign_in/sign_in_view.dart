@@ -12,7 +12,7 @@ class SignInView extends StatelessWidget {
           children: [
             Positioned.fill(
               child: Image.asset(
-                AssetConstants.background_1,
+                AssetConstants.background_2,
               ),
             ),
             Column(
@@ -28,7 +28,7 @@ class SignInView extends StatelessWidget {
                 ),
                 Dimens.boxHeight10,
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: RouteManagement.goToLogIn,
                   style: ElevatedButton.styleFrom(
                     primary: ColorsValue.gray22Color,
                     shape: const StadiumBorder(),

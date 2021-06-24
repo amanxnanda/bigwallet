@@ -73,6 +73,10 @@ abstract class ColorsValue {
     gray22ColorHex,
   );
 
+  static const Color gray8Color = Color(
+    gray8ColorHex,
+  );
+
   static Color backgroundColor = Colors.black;
 
   static const int primaryColorHex = 0xffCC2B5E;
@@ -100,6 +104,8 @@ abstract class ColorsValue {
   static const int blueColorHex = 0xff0027FF;
 
   static const int gray22ColorHex = 0xff1C1924;
+
+  static const int gray8ColorHex = 0xffA6A0BB;
 
   static const Color transparent = Color.fromARGB(0, 255, 255, 255);
 

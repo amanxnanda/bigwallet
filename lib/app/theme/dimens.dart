@@ -453,6 +453,9 @@ abstract class Dimens {
   static SizedBox boxHeight50 = SizedBox(
     height: fifty,
   );
+   static SizedBox boxHeight60 = SizedBox(
+    height: fifty,
+  );
    static SizedBox boxHeight100 = SizedBox(
     height: hundred,
   );

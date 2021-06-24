@@ -31,5 +31,12 @@ class AppPages {
       binding: LogInBinding(),
       transition: Transition.fadeIn,
     ),
+    GetPage<ForgotPasswordView>(
+      name: _Paths.forgotPassword,
+      transitionDuration: transitionDuration,
+      page: () => ForgotPasswordView(),
+      binding: ForgotPasswordBinding(),
+      transition: Transition.fadeIn,
+    ),
   ];
 }

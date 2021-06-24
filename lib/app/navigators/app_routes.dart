@@ -6,12 +6,11 @@ part of 'app_pages.dart';
 abstract class Routes {
   static const signIn = _Paths.signIn;
   static const logIn = _Paths.logIn;
-
+  static const forgotPassword = _Paths.forgotPassword;
 }
 
 abstract class _Paths {
- 
   static const signIn = '/sign-in-screen';
   static const logIn = '/log-in-screen';
-
+  static const forgotPassword = '/forgot-password-screen';
 }

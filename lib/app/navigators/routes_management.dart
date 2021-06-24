@@ -14,8 +14,15 @@ abstract class RouteManagement {
 
   /// Go to the LogIn Screen
   static void goToLogIn() {
-    Get.offAllNamed<void>(
+    Get.to<void>(
       Routes.logIn,
+    );
+  }
+
+  /// Go to the LogIn Screen
+  static void goToForgotPassword() {
+    Get.to<void>(
+      Routes.forgotPassword,
     );
   }
 
