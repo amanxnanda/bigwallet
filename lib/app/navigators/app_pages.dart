@@ -24,5 +24,12 @@ class AppPages {
       binding: SignInBinding(),
       transition: Transition.fadeIn,
     ),
+    GetPage<LogInView>(
+      name: _Paths.logIn,
+      transitionDuration: transitionDuration,
+      page: () => LogInView(),
+      binding: LogInBinding(),
+      transition: Transition.fadeIn,
+    ),
   ];
 }

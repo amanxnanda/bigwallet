@@ -65,9 +65,19 @@ abstract class ColorsValue {
     blueColorHex,
   );
 
-  static Color backgroundColor = Colors.white;
+  static const Color secondaryColor = Color(
+    secondaryColorHex,
+  );
 
-  static const int primaryColorHex = 0xFF84915d;
+  static const Color gray22Color = Color(
+    gray22ColorHex,
+  );
+
+  static Color backgroundColor = Colors.black;
+
+  static const int primaryColorHex = 0xffCC2B5E;
+
+  static const int secondaryColorHex = 0xff753A88;
 
   static const int lightGreyColor2Hex = 0xFF43586B;
 
@@ -88,6 +98,8 @@ abstract class ColorsValue {
   static const int outlineColorHex = 0xffE2E6FA;
 
   static const int blueColorHex = 0xff0027FF;
+
+  static const int gray22ColorHex = 0xff1C1924;
 
   static const Color transparent = Color.fromARGB(0, 255, 255, 255);
 
