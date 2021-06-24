@@ -1,0 +1,52 @@
+import 'package:get/get.dart';
+
+// coverage:ignore-file
+abstract class StringConstants {
+  static String appName = 'appName'.tr;
+  static String okay = 'okay'.tr;
+  static String somethingWentWrong = 'somethingWentWrong'.tr;
+  static String noInternet = 'noInternet'.tr;
+  static String enterDetails = 'enterDetails'.tr;
+  static String forgotPassword = 'forgotPassword'.tr;
+  static String login = 'login'.tr;
+  static String orContinueWith = 'orContinueWith'.tr;
+  static String phone = 'phone'.tr;
+  static String emailAddress = 'emailAddress'.tr;
+  static String pleaseEnterValidEmail = 'pleaseEnterValidEmail'.tr;
+  static String password = 'password'.tr;
+  static String continuE = 'continue'.tr;
+  static String email = 'email'.tr;
+  static String verify = 'verify'.tr;
+  static String enterVerificationCode = 'enterVerificationCode'.tr;
+  static String verificationSendTo = 'verificationSendTo'.tr;
+  static String resetPassword = 'resetPassword'.tr;
+  static String pleaseEnterEmail = 'pleaseEnterEmail'.tr;
+  static String emailNotLinked = 'emailNotLinked'.tr;
+  static String personalDetails = 'personalDetails'.tr;
+  static String changePhoto = 'changePhoto'.tr;
+  static String firstName = 'firstName'.tr;
+  static String lastName = 'lastName'.tr;
+  static String phoneNumber = 'phoneNumber'.tr;
+  static String verified = 'verified'.tr;
+  static String dateOfBirth = 'dateOfBirth'.tr;
+  static String address = 'address'.tr;
+  static String doYouDriveVehicle = 'doYouDriveVehicle'.tr;
+  static String yes = 'yes'.tr;
+  static String no = 'no'.tr;
+  static String uploadDrivingLicense = 'uploadDrivingLicense'.tr;
+  static String gallery = 'gallery'.tr;
+  static String camera = 'camera'.tr;
+  static String selectOption = 'selectOption'.tr;
+  static String next = 'next'.tr;
+  static String pleaseEnterAddress = 'pleaseEnterAddress'.tr;
+  static String pleaseEnterDOB = 'pleaseEnterDOB'.tr;
+  static String educationAndExperience = 'educationAndExperience'.tr;
+  static String selectEducationLevel = 'selectEducationLevel'.tr;
+  static String uploadCertificates = 'uploadCertificates'.tr;
+  static String mscNursing = 'mscNursing'.tr;
+  static String bscNursing = 'bscNursing'.tr;
+  static String selectSkills = 'selectSkills'.tr;
+  static String validUpto = 'validUpto'.tr;
+  static String educationLevel = 'educationLevel'.tr;
+  static String competenceDetails = 'competenceDetails'.tr;
+}
